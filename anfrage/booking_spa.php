@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Melkin, Booking and Reservation form Wizard by Ansonika.">
     <meta name="author" content="Ansonika">
-    <title>Melkin | The booking form Wizard</title>
+    <title>Tridhya Tech GmbH App Entwicklung</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -37,9 +37,9 @@
 <body onLoad="setTimeout('delayedRedirect()', 8000)" style="background-color:#fff;">
 <?php
 						$mail = $_POST['email'];
-						$to = "info@domain.com";/* YOUR EMAIL HERE */
-						$subject = "Booking request from Melkin";
-						$headers = "From: Melkin <noreply@yourdomain.com>";
+						$to = "hello@tridhya.de";/* YOUR EMAIL HERE */
+						$subject = "Eine App Anfrage für Tridhya";
+						$headers = "From: Tridhyatech <noreply@yourdomain.com>";
 						$message = "DETAILS\n";
 						$message .= "\nPreferred date: " . $_POST['dates'];
 						$message .= "\nPreferred time: " . $_POST['time'];
@@ -63,11 +63,11 @@
 						
 						//Confirmation page
 						$user = "$mail";
-						$usersubject = "Thank You";
-						$userheaders = "From: info@melkin.com\n";
+						$usersubject = "Vielen Dank!";
+						$userheaders = "From: hello@tridhya.de\n";
 						/*$usermessage = "Thank you for your time. Your quotation request is successfully submitted.\n"; WITH OUT SUMMARY*/
 						//Confirmation page WITH  SUMMARY
-						$usermessage = "Thank you for your time. Your request is successfully submitted. We will reply shortly or call us at 043 3423 444.\n\nBELOW A SUMMARY\n\n$message"; 
+						$usermessage = "Vielen Dank für Ihre Anfrage. Wir melden uns zeitnah bei Ihnen \n\nZusammenfassung\n\n$message"; 
 						mail($user,$usersubject,$usermessage,$userheaders);
 	
 ?>
@@ -82,8 +82,8 @@
           </g>
          </svg>
      </div>
-	<h4><span>Request successfully sent!</span>Thank you for your time</h4>
-	<small>You will be redirect back in 5 seconds.</small>
+	<h4><span>Vielen Dank für Ihre Anfrage</span>Wir melden und zeitnah bei Ihnen</h4>
+	<small>Sie werden in 5 Sekunden weitergeleitet</small>
 </div>
 </body>
 </html>

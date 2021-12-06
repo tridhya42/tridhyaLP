@@ -190,7 +190,7 @@ a.animated_link:hover:before {
 a.animated_link.active {
   position: relative;
   text-decoration: none;
-  color: #2abfaa;
+  color: #022D62;
 }
 a.animated_link.active:before {
   content: "";
@@ -211,7 +211,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #2abfaa;
+  background: #022D62;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -484,7 +484,7 @@ h3 .slide_typo strong {
 }
 .content-left-wrapper .wrapper .left_title h3 {
   color: #fff;
-  background-color: #000;
+  background-color: #022D62;
   padding: 10px 20px;
   display: inline-flex;
   font-size: 32px;
@@ -770,7 +770,7 @@ button.submit {
   cursor: pointer;
   outline: none;
   text-align: center;
-  background: #2abfaa;
+  background: #022D62;
   position: relative;
   font-size: 14px;
   font-size: 0.875rem;
@@ -835,7 +835,7 @@ button.submit:before {
 }
 
 .ui-widget-header {
-  background: #6C3;
+  background: #EF3139;
 }
 
 .ui-widget-header a {
@@ -1040,7 +1040,7 @@ footer ul li a:hover {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #2abfaa !important;
+  background: #022D62 !important;
 }
 
 main#general_page {
@@ -1406,7 +1406,7 @@ textarea.notes {
   position: absolute;
   left: 15px;
   top: 15px;
-  color: #555;
+  color: #022D62;
 }
 
 span.error {
@@ -1481,7 +1481,7 @@ span.error:after {
 .form-control:focus {
   color: #717a82;
   box-shadow: none;
-  border-color: #2abfaa;
+  border-color: #022D62;
 }
 
 /* Checkbox style */
@@ -1505,7 +1505,7 @@ span.error:after {
   cursor: pointer;
 }
 .container_check input:checked ~ .checkmark {
-  background-color: #2abfaa;
+  background-color: #022D62;
   border: 1px solid transparent;
 }
 .container_check .checkmark {
@@ -1606,7 +1606,7 @@ span.error:after {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #2abfaa;
+  background: #022D62;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1822,7 +1822,7 @@ label.dd-selected-text {
   color: #6c757d;
 }
 .nice-select:active, .nice-select.open, .nice-select:focus {
-  border-color: #2abfaa;
+  border-color: #022D62;
 }
 .nice-select:after {
   border-bottom: 2px solid #ccc;
@@ -2055,7 +2055,7 @@ label.dd-selected-text {
 
 /*-------- 3.3 Datepicker --------*/
 .applyBtn.btn.btn-sm.btn-primary {
-  background-color: #2abfaa;
+  background-color: #022D62;
   border: 0;
 }
 
